@@ -1,0 +1,89 @@
+.celular-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.celular-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.celular-card h2 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+/* CONTAINER PAI - ENVELOPE OS CARDS */
+.celulares-container {
+  display: flex;
+  flex-wrap: wrap; /* Quebra linha se não couber */
+  gap: 16px; /* Espaço entre os cards */
+  justify-content: center; /* Centraliza os cards */
+}
+
+/* CARD DO CELULAR */
+.celular-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px; /* Lura fixa pra cada card */
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.celular-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.celular-card h2 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.celular-card img {
+  width: 100%; /* Ocupa 100% do card */
+  max-width: 300px; /* Não fica maior que 300px */
+  height: auto; /* Altura automática */
+  border-radius: 8px;
+}
+
+
+.whatsapp-btn {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.whatsapp-btn:hover {
+  background: #128C7E;
+}
+
+
+.celular-card button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
